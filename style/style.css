@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(32, 9, 53);
+    text-decoration: none;
+}
+
+.titre {
+    font-size: 4em;
+    text-align: center;
+    color: yellow;
+    margin: 20px;
+}
+
+.navigateur {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.bouton {
+    font-size: 2em;
+    color: yellow;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bouton:hover {
+    color: rgb(32, 9, 53);
+    background-color: yellow;
+}
+
+.page-en-cours {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.conteneur-principal {
+    display: flex;
+    font-size: 1.8em;
+    width: 80vh;
+    color: white;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: rgb(90,90,90);
+    padding: 15px;
+}
+
+.css {
+    width: 100px;
+    height: 100px;
+    background-image: url(../image/css.png);
+    background-position: center;
+    background-size: 100%;
+    border: 3px solid white;
+    border-radius: 15px;
+}
